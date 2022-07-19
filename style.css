@@ -1,0 +1,368 @@
+
+body{
+  font-family: 'lato',sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+.pinkText{
+  color:rgb(243, 108, 255)
+}
+.city{
+  background-color: orange;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.marginBottom{
+  margin-bottom: 50px
+}
+.marginTop5{
+margin-top:5px
+}
+.autoMargin{
+  margin: auto;
+}
+.midCard{
+  position: relative;
+  top:-1rem;
+}
+.diagonal-box {
+	background-color: rgb(106, 24, 238);
+	transform: skewY(-11deg);
+  height: 500px;
+}
+
+.content {
+	/* max-width: 50em; */
+  height: 500px;
+	margin: 0 auto;
+  background-color: rgb(155, 106, 235);
+	transform: skewY(35deg);
+}
+
+
+.top-section{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.navLink,
+.nav-link{
+  color: white !important;
+  font-weight: 500;
+}
+
+.top-section-main{
+  overflow: hidden;
+}
+
+.navbartop{
+  position: relative;
+  z-index: 2;
+}
+.navbar-collapse{
+  position: relative;
+  z-index: 2;
+}
+
+.roxyDiv{
+  border: 10px solid white;
+  padding: 0.5rem 3rem;
+  font-size: 7rem;
+  font-weight: 900;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.15;
+}
+
+.roxyDiv p{
+  margin: 0;
+  padding: 0;
+}
+
+.midCard-testimonial{
+  position: relative;
+  top:-1rem;
+}
+
+.marginTop20{
+  margin-top: 20px;
+}
+.cardBox{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding:1rem;
+}
+.iconHeading{
+  margin: auto;
+  padding: 10px
+}
+.iconStyling{
+  margin: 50px;
+}
+.iconMargin{
+  margin-left:55px
+}
+.textAlign{
+  text-align: center;
+}
+.colorPink{
+  color: rgb(255, 0, 212);
+}
+.fontSize40{
+font-size: 40px;
+}
+.responsive {
+  width: 100%;
+  /* max-width: 400px; */
+  height: auto;
+}
+.marginLeft25{
+  margin-left: 25%;
+}
+.margin20{
+  margin: 20px;
+}
+.textAlignRight{
+  text-align: right;
+}
+.wh100{
+  width:100%;
+  height:100%;
+}
+.cardsDiv{
+  margin-top:25px;
+  align-items: center;
+  justify-content:center
+}
+.marginTop50{
+  margin-top: 50px;
+}
+.fontBold{
+  font-weight: bold;
+}
+.section-style{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#clip {
+  position: absolute;
+  clip: rect(0, 5000px, 500px, 0);
+  /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+}
+.marginRight50{
+  margin-right:50px
+}
+.backgroundImage{
+  background-image: url("./assets/paper.gif");
+}
+.gradHeading{
+  padding: 50px 0px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: rgb(255, 175, 255);
+  border-radius: 50%;
+  display: inline-block;
+}
+#grad1 {
+  height: auto;
+  background-image: linear-gradient(to right, rgb(2, 0, 117), rgb(247, 0, 255)),url("./assets/bg-white.jpg"); /* For browsers that do not support gradients */
+  margin: 75px 0px;
+  color:white
+}
+
+#gradTop {
+  background-image: linear-gradient(to right, rgb(2, 0, 117), rgb(247, 0, 255)),url("./assets/bg-white.jpg"); /* For browsers that do not support gradients */
+  color:white
+}
+
+#grad3{
+  height: auto;
+  background-image: linear-gradient(to right, rgb(2, 0, 117), rgb(247, 0, 255)),url("./assets/bg-white.jpg");
+  text-align: center;
+  color: white;
+  padding-top:3% ;
+  margin: 75px 0px;
+}
+.back {
+  height: 200px;
+  background-image: url("./assets/client.png");
+  background-repeat: repeat-x;
+  background-size: 2%, 2%
+}
+.btn-default {
+  font-family: 'lato',sans-serif;
+  font-size: 13px;
+  color: #FFF;
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(255, 0, 242, 0.75);
+  border-radius: 40px;
+  background: rgb(255, 0, 255);
+  transition: all 0.3s ease 0s;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.btn-default:hover {
+  color: #FFF;
+  background: rgba(108, 88, 179, 0.75);
+  border: 2px solid rgba(108, 89, 179, 0.75);
+}
+.btn-danger {
+  font-family: 'lato',sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  padding: 10px;
+  margin-bottom: 50px;
+
+}
+.padding10{
+  padding:10px
+}
+.marginBottom10{
+  margin-bottom: 10px
+}
+.textAlignLeft{
+  text-align: left;
+}
+.textCardMargin{
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+.captureHeading{
+  padding: 10px;
+}
+.userProfile{
+  border-radius: 50%;
+  width:50px;
+  height:50px;
+
+}
+.lorem{
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+}
+.captureText{
+  padding: 5px;
+}
+.marginBottom50{
+  margin-bottom: 50px;
+}
+.marginTop150{
+  margin-top: 150px;
+}
+.progressBar{
+  max-width: 75%;
+  text-align: center;
+  padding: 2px;
+}
+.marginTop10{
+  margin-top: 10px;
+}
+.progressBarHTML{
+  width: 95%;
+  background-color: rgb(252, 0, 218);
+}
+.progressBarCSS{
+  width: 90%;
+  height:20px;
+   background-color: rgb(252, 0, 218);
+}
+.bgWhite{
+  background-image: url('./assets/bg-white.jpg');
+  background-size: 100% auto;
+}
+.btn-danger:hover {
+  color: rgb(255, 255, 255);
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.75);
+}
+
+.cards-div-image{
+  display: flex;
+  justify-content: end;
+}
+
+.testimonial-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.our-work-images-outer-div{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.right-side-image{
+  margin-top: 10px;
+}
+
+.testimonial-section{
+  margin-top: 20px;
+}
+
+.list-class{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 999px) {
+  .midCard{
+    top:0;
+  }
+  .captureHeading,
+  .captureText{
+    width: 100% !important;
+  }
+
+  .right-side-image{
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .textCardMargin{
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .right-side-image{
+    margin-top: 5px;
+  }
+
+  .cards-div-image{
+    justify-content: start;
+  }
+
+  .lorem{
+    width: 80% !important;
+  }
+
+  .list-class{
+    gap: 0.75rem;
+  }
+
+}
