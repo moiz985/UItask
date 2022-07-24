@@ -58,6 +58,34 @@ margin-top:5px
 
 .top-section-main{
   overflow: hidden;
+  position: relative;
+}
+
+.triangle-one{
+  position: absolute;
+  top: 7rem;
+  left: 15rem;
+  z-index: 20;
+  width: 4rem;
+  rotate: 45deg;
+}
+
+.triangle-two{
+  position: absolute;
+  bottom: 7rem;
+  right: 15rem;
+  z-index: 20;
+  width: 4rem;
+  rotate: 45deg;
+}
+
+.triangle-three{
+  position: absolute;
+  bottom: 7rem;
+  left: 10rem;
+  z-index: 20;
+  width: 4rem;
+  rotate: -45deg;
 }
 
 .navbartop{
@@ -196,15 +224,30 @@ font-size: 40px;
   clip: rect(0, 5000px, 500px, 0);
   /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
 }
+
+
+.love-image{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
 .marginRight50{
   margin-right:50px
 }
+
 .backgroundImage{
   background-image: url("./assets/paper.gif");
 }
+
 .gradHeading{
   padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
 }
+
 .dot {
   height: 15px;
   width: 15px;
@@ -225,12 +268,12 @@ font-size: 40px;
 }
 
 #grad3{
-  height: auto;
+  /* height: auto; */
   background-image: linear-gradient(to right, rgb(2, 0, 117), rgb(247, 0, 255)),url("./assets/bg-white.jpg");
   text-align: center;
   color: white;
-  padding-top:3% ;
-  margin: 75px 0px;
+  /* padding-top:3% ; */
+  /* margin: 75px 0px; */
 }
 .back {
   height: 200px;
@@ -240,15 +283,14 @@ font-size: 40px;
 }
 .btn-default {
   font-family: 'lato',sans-serif;
-  font-size: 13px;
+  font-size: 1rem;
   color: #FFF;
-  letter-spacing: 1px;
   line-height: 15px;
   border: 2px solid rgba(255, 0, 242, 0.75);
   border-radius: 40px;
   background: rgb(255, 0, 255);
   transition: all 0.3s ease 0s;
-  padding: 5px;
+  padding: 15px;
   margin-top: 15px;
 }
 
@@ -268,7 +310,7 @@ font-size: 40px;
   background: transparent;
   transition: all 0.3s ease 0s;
   padding: 10px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 
 }
 .padding10{
@@ -349,11 +391,24 @@ font-size: 40px;
   justify-content: end;
 }
 
-.testimonial-section{
+
+.purchase-now-btn{
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.purchase-now-btn:hover{
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(173, 74, 182)
+}
+
+.testimonial-section-image{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  margin-top: 20px;
 }
 
 .our-work-images-outer-div{
@@ -367,7 +422,7 @@ font-size: 40px;
 }
 
 .testimonial-section{
-  margin-top: 20px;
+  padding: 4rem 0;
 }
 
 .list-class{
@@ -377,6 +432,54 @@ font-size: 40px;
   justify-content: center;
   gap: 2rem;
   padding: 0;
+}
+
+.form-right-side{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 7rem;
+}
+
+
+.form-services-logo{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.best-solution-heading{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.best-solution-text{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  width: 85% !important;
+}
+
+.features-section{
+  padding: 5rem 1rem;
+}
+
+.features-section h3{
+  font-size: 2.25rem;
+}
+
+.footer{
+  padding: 1rem 0;
+  overflow: hidden;
+}
+
+.footer-icons-div{
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -407,6 +510,10 @@ font-size: 40px;
   }
 
   .cardBox{
+    padding: 2rem 0;
+  }
+
+  .testimonial-section{
     padding: 2rem 0;
   }
 
@@ -447,6 +554,12 @@ font-size: 40px;
   .cardBox{
     padding: 2rem 1rem;
   }
+
+
 }
 
-
+@media screen and (max-width: 1260px) {
+  .form-right-side{
+    padding-left: 1rem;
+  }
+}
