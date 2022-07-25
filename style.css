@@ -389,17 +389,18 @@ font-size: 40px;
   max-width: 75%;
   text-align: center;
   padding: 2px;
+  height:20px
 }
 .marginTop10{
   margin-top: 10px;
 }
 .progressBarHTML{
   width: 95%;
-  background-color: rgb(252, 0, 218);
+  background-color: rgb(212, 0, 184);
 }
 .progressBarCSS{
   width: 90%;
-   background-color: rgb(252, 0, 218);
+   background-color: rgb(212, 0, 184);
 }
 .bgWhite{
   background-image: url('./assets/bg-white.jpg');
